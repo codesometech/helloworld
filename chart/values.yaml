@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: public.ecr.aws/y8k3f8w6/helloworld
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
